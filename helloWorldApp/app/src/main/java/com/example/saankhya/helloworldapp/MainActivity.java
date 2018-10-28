@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
                     Login.setEnabled(false);
                     Info.setText("No of attempts remaining:" + (String.valueOf(counter) + "\n" + "No more chance to login"));
                     Info.setText("fasak..."); //dummy statement
-                    Info.setText("get lost"); //dummy statement
                 }
             }
         }
