@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 if (counter == 0) {
                     Login.setEnabled(false);
                     Info.setText("No of attempts remaining:" + (String.valueOf(counter) + "\n" + "No more chance to login"));
+                    Info.setText("fasak..."); //dummy statement
                 }
             }
         }
